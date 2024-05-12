@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: Girl;
+  src: url(/fonts/fiolex_girls/Filxgirl.TTF) format("truetype");
+}
+:root {
+  --branco: #ffff;
+  --preto: #000;
+  --cor-de-fundo: #610139;
+  --cor-2: #741549;
+  --cor-3: #862859;
+  --cor-4: #993c69;
+  --cor-5: #ab4f79;
+  --cor-6: #ce7095;
+  --cor-7: #ffdbd7;
+  --fonte-principal: "Poppins";
+  --fonte-titulos: "Girl";
+}
+body {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  background-color: var(--cor-de-fundo);
+}
+header {
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.title {
+  text-align: center;
+  font-family: var(--fonte-titulos);
+  font-size: 7rem;
+  color: var(--cor-de-fundo);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.text {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  color: var(--cor-7);
+}
+.card {
+  background-color: var(--cor-5);
+  border-radius: 10px;
+  box-shadow: 0 5px 10px blanchedalmond;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.title2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  color: var(--cor-7);
+}
+main {
+  padding: 5rem;
+}
+.card2 {
+  background-color: var(--cor-5);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#question {
+  font-family: var(--fonte-principal);
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+#options button {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+  background-color: var(--cor-2);
+  color: var(--branco);
+  border: 16px #000;
+  padding: 8px 20px;
+  margin: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+#options {
+  color: var(--branco);
+  font-size: 20px;
+  text-align: center;
+}
