@@ -90,3 +90,10 @@ main {
   font-size: 20px;
   text-align: center;
 }
+
+.correta {
+  background-color: green;
+}
+.incorreta {
+  background-color: red;
+}

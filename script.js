@@ -90,11 +90,17 @@ function verificarResposta(responder) {
   const current = questions[perguntaAtual];
   if (responder === current.answer) {
     pontuacao++;
+    optionsElement
+      .querySelector(`button:contains(${responder})`)
+      .classList.add(".correta");
   }
 
   if (perguntaAtual < questions.length - 1) {
     perguntaAtual++;
     exibirPergunta();
+    optionsElement
+      .querySelector(`button:contains(${responder})`)
+      .classList.add(".incorreta");
   } else {
     endGame();
   }
